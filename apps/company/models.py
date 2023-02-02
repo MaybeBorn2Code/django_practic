@@ -56,7 +56,7 @@ class Quantity(models.Model):
         verbose_name='ручка'
     )
 
-    quantity_of_pen = models.IntegerField(
+    quantity_of_pen = models.PositiveIntegerField(
         verbose_name='количество'
     )
 
